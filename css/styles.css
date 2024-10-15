@@ -4,41 +4,48 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #efd7ef;
+    font-family: "Times New Roman", Arial, sans-serif;
+    background-color: rgb(27, 7, 51);
     font-size: 16px;
     text-align: center;
+    color: #ebe3e3;
+}
+
+a {
+    color: #ebe3e3;
+}
+
+a:hover {
+    color: hotpink;
 }
 
 .odin-title {
     text-align: center;
     padding: 2rem;
 }
-g
+
 .recipe-card {
-    text-align: center;
-    border: 2px solid black;
+    font-size: 1rem;
+    border: 3px double rgb(71, 39, 109);
     display: inline-block;
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 15px;
-} 
+}  
 
 .bio {
-    font-size: 1rem;
     padding: 15px;
     display: inline-block;
+    width: 250px;
+}
+
+.bio p {
+    margin-bottom: 10px;
 }
 
 .recipes-list {
-    font-size: 1rem;
     display: inline-block;
 }
 
-a {
-    color: black;
-}
 
-a:visited {
-    color: purple;
-}
+
 
