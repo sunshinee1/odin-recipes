@@ -1,5 +1,37 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
+    background-color: #efd7ef;
+    font-size: 16px;
+    text-align: center;
+}
+
+.odin-title {
+    text-align: center;
+    padding: 2rem;
+}
+g
+.recipe-card {
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 15px;
+} 
+
+.bio {
+    font-size: 1rem;
+    padding: 15px;
+    display: inline-block;
+}
+
+.recipes-list {
+    font-size: 1rem;
+    display: inline-block;
 }
 
 a {
