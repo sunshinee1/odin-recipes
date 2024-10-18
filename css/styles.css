@@ -1,6 +1,8 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,9 +21,10 @@ a:hover {
     color: hotpink;
 }
 
-.odin-title {
+.title {
     text-align: center;
     padding: 2rem;
+    margin-top: 3rem;
 }
 
 .recipe-card {
@@ -29,22 +32,33 @@ a:hover {
     border: 3px double rgb(71, 39, 109);
     display: inline-block;
     padding: 1rem;
-    margin: 15px;
-}  
-
-.bio {
-    padding: 15px;
-    display: inline-block;
-    width: 250px;
+    width: 40%;
 }
 
-.bio p {
-    margin-bottom: 10px;
+.bio {
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .recipes-list {
-    display: inline-block;
+    padding: 10px;
+    float: right;
+    width: 50%;
+    text-align: right;
 }
+
+.bio p {
+    margin-bottom: 10%;
+}
+
+.keyword-list {
+    padding: 1rem;
+}
+
+
 
 
 
